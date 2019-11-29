@@ -29,7 +29,7 @@ class Article extends Component<IProps, IState> {
             text,
             date
         } = data;
-        const imgTarget = `${url}${src}`;
+        const imgTarget = `${url}/${src}`;
         return (
             <div>
                 <h3>{title}</h3>
