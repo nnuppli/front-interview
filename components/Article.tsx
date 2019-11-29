@@ -3,6 +3,7 @@ import { Post } from '../utils/types';
 import WordingConstant from '../utils/wording.json';
 
 const Wording = WordingConstant.Article;
+const url = 'https://upply-interview.herokuapp.com';
 
 interface IProps {
     data: Post;
@@ -28,12 +29,13 @@ class Article extends Component<IProps, IState> {
             text,
             date
         } = data;
+        const imgTarget = `${url}${src}`;
         return (
             <div>
                 <h3>{title}</h3>
                 <span>{date.toLocaleString()}</span>
                 <p>{text}</p>
-                <img src={src}/>
+                <img src={imgTarget}/>
             </div>
         );
     }
