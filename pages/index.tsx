@@ -1,6 +1,5 @@
 import React, {FunctionComponent} from 'react';
 import Blog from './blog';
-import '../styles/main.css';
 
 const Index: FunctionComponent = () => {
   return (
