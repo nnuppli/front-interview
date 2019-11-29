@@ -1,0 +1,15 @@
+{
+    "Article": {
+        "id": "id",
+        "src": "src",
+        "title": "title",
+        "text": "text",
+        "date": "date"
+    },
+    "Blog": {
+        "nameFilter": "Filtrer par nom: "
+    },
+    "Loader": {
+        "text": "Loading"
+    }
+}
